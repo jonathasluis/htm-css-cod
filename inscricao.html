@@ -1,0 +1,94 @@
+﻿<html>
+	<head>
+		<title>CALL OF DUTY</title>
+		<link rel="shortcut icon" href="https://s-media-cache-ak0.pinimg.com/originals/2c/00/c2/2c00c21f72a3517498b74f7931ce6b98.png" type="image/x-icon" />
+		
+		<link rel="stylesheet" type="text/css" href="css/img.css"/>	
+		<link rel="stylesheet" type="text/css" href="css/form.css"/>	
+		<script lenguage="javascript" src="java.js"></script>
+		
+	</head>
+	
+	<body>
+	
+		<div id = "menu">
+			<ul>
+				<li><a href="index.html">Pagina inicial</a></li>
+				<li><a href="jogos.html">Jogos</a></li>
+				<li><a href="compra.html">Compra</a></li>
+				<li><a href="inscricao.html">Inscreva-se</a></li>
+				<li><a href="login.html">login(admn)</a></li>
+			</ul>
+		</div>
+		
+		
+		
+		<form method="post" id="form">
+		
+			<fieldset id="usuario">
+				<legend>Identificação do Usuário</legend>
+				<p><label for="cname"> Nome:</label><input type="text" name="tnome" id="cname" size="20" maxlength="30" placeholder="ex:Jonathas Luis de Sousa"/> </p>
+			
+				<p><label for="csenha"> Senha:</label> <input type="password" name="tsenha" id="csenha" size="8" maxlength="8" placeholder="max 8 digitos"/></p>
+			
+
+				<p><label for="cmail"> E-mail:</label><input type="email" name="tmail" id="cmail" size="20" maxlength="40" placeholder="digite um e-mail"/> </p>
+			
+			<fieldset id="sexo"><legend> Sexo</legend>
+				<input type="radio" name="tsexo" id="cmasc"/> <label for="cmasc">Masculino</label>
+				<input type="radio" name="tsexo" id="cfem"/> <label for="cfem">Feminino</label>
+				</fieldset>
+				
+				<p> Data de Nascimento:<input type="date" name="tdate" id="cdate"></p>
+			</fieldset>
+
+			<fieldset id="endereco">	
+				<legend>Endereço do Usuário</legend>
+				<p> Logradouro:<input type="text" name="trua" id="crua" size="13" placeholder="Rua,AV,Travessa"></p>
+		   
+				<p> Número:<input type="number" name="tnum" id="cnum" min="0" max="9999"/></p>
+				<p> <label for="cest">Estado:</label> <select name="test" id="cest">
+					<option>Selecione...</option>
+					<option value="AC">AC</option>
+					<option value="AL">AL</option>
+					<option value="AP">AP</option>
+					<option value="AM">AM</option>
+					<option value="BA">BA</option>
+					<option value="CE">CE</option>
+					<option value="ES">ES</option>
+					<option value="DF">DF</option>
+					<option value="MA">MA</option>
+					<option value="MT">MT</option>
+					<option value="MS">MS</option>
+					<option value="MG">MG</option>
+					<option value="PA">PA</option>
+					<option value="PB">PB</option>
+					<option value="PR">PR</option>
+					<option value="PE">PE</option>
+					<option value="PI">PI</option>
+					<option value="RJ">RJ</option>
+					<option value="RN">RN</option>
+					<option value="RS">RS</option>
+					<option value="RO">RO</option>
+					<option value="RR">RR</option>
+					<option value="SC">SC</option>
+					<option value="SP">SP</option>
+					<option value="SE">SE</option>
+					<option value="TO">TO</option>
+				</select></p>
+		   
+				<p> <label for="ccity">Cidade:</label> <input type="text" name="tcity" name="ccity" maxlength="40" size="20" placeholder="ex:São Paulo" list="cidades"></p>
+				<datalist id="cidades">
+					<option value="Rio de Janeiro"></option>
+					<option value="Sao Paulo"></option>
+					<option value="Belo Horizonte"></option>
+					<option value="Palmas"></option>
+			   </datalist>
+			</fieldset>
+
+			<input type="submit" name="botao" id="cbtn" onclick="btn()"/>
+		</form>	
+
+		
+	</body>
+</html>

@@ -1,0 +1,79 @@
+﻿#cbtn{
+	margin-left:19px;
+	font-family: arial;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border:none;
+	padding:10px;
+	cursor: pointer;
+  	background-color:#CDC9C9;
+	text-decoration:none;
+	box-shadow: 0 5px 0 #606060;
+}
+
+#cbtn:hover{
+	background-color:#CDC9C9;
+	box-shadow: 0 5px 0 #8B8989;
+}
+
+#cbtn:active{
+	position:relative;
+	top:5px;
+	box-shadow: none;
+}
+
+form{
+	width:500px;
+	margin:auto;
+	margin-top:65px;
+}
+
+input,textarea{
+	font-family:sans-serif;
+	font-weight:normal;
+	
+}
+
+input:hover,textarea:hover{
+	background-color:#dddddd;
+}
+
+legend{
+	color:#888888;
+	font-weight:bold;
+	font-size:13pt;
+	border-bottom:none;
+}
+
+fieldset{
+	border-color:#cecece;
+	margin:15px;
+}
+
+fieldset#sexo{
+	width:100px;
+}
+
+fieldset#usuario{
+	background: url(pasta/icone-contato.png) no-repeat 95% 95%;	
+}
+
+fieldset#endereco{
+	background: url(pasta/icone-endereco.png) no-repeat 95% 95%;	
+}
+
+fieldset#mensagem{
+	background: url(pasta/icone-mensagem.png) no-repeat 95% 95%;	
+}
+
+fieldset#quero{
+	background: url(pasta/icone-pagamento.png) no-repeat 95% 95%;	
+}
+
+#form{
+	position: absolute;
+	width: 900px;
+	left: 50%;
+	margin-left:-450px;
+}

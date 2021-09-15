@@ -1,0 +1,101 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+#play{
+	position:absolute;
+	opacity:0.8;
+	width:100px;
+	height:100px;
+	left:50%;
+	margin-left:-50;
+	margin-top:235px;
+}
+
+.mySlides{
+	height:75%;
+}
+
+
+div#container{
+	width:100%;
+	margin:auto;
+	text-align:center;
+}
+
+.demo {
+	display:inline-block;
+	width: 350px;
+	vertical-align:top;
+	margin-right:20px;
+	box-shadow:2px 3px 1px #cecece;
+	margin-top:-20px;
+
+}
+
+fieldset{
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	border-bottom:none;
+	box-shadow: 1px 1px 1px #cecece;
+	cursor:pointer;
+}
+
+fieldset > legend{
+	border-bottom:none;
+}
+
+#legenda {
+	background:#dddddd;
+	padding:5px;
+	border:none;
+	text-align:center;
+	font-weight:bolder;
+	font-size:15pt;
+	width:100%;
+}
+
+#legenda:focus{
+	background:#9e922c;
+}
+
+#botao{
+	font-family: arial;
+	font-size:10pt;
+	text-transform: uppercase;
+	font-weight: 700;
+	border:none;
+	padding:5px;
+	cursor: pointer;
+  	background-color: #000000;
+    text-decoration: none;
+	color: #9e922c;
+	transition: all 0.5s;
+}
+
+#botao:hover{
+	background-color:#9e922c;
+	color: #000000;
+}
+
+#botao:active{
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
+}
+
+.neg {
+	text-align:center;
+	font-size:14pt;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.hidden{
+	text-align:justify;
+	font-family: 'Titillium Web', sans-serif;
+
+} 
+
+#faxa{
+	position:absolute;
+	top:1800px;
+	width:100%;
+}
