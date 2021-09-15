@@ -56,19 +56,19 @@ fieldset#sexo{
 }
 
 fieldset#usuario{
-	background: url(pasta/icones/icone-contato.png) no-repeat 95% 95%;	
+	background: url(../pasta/icones/icone-contato.png) no-repeat 95% 95%;	
 }
 
 fieldset#endereco{
-	background: url(pasta/icones/icone-endereco.png) no-repeat 95% 95%;	
+	background: url(../pasta/icones/icone-endereco.png) no-repeat 95% 95%;	
 }
 
 fieldset#mensagem{
-	background: url(pasta/icones/icone-mensagem.png) no-repeat 95% 95%;	
+	background: url(../pasta/icones/icone-mensagem.png) no-repeat 95% 95%;	
 }
 
 fieldset#quero{
-	background: url(pasta/icones/icone-pagamento.png) no-repeat 95% 95%;	
+	background: url(../pasta/icones/icone-pagamento.png) no-repeat 95% 95%;	
 }
 
 #form{
